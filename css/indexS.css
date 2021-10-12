@@ -19,7 +19,7 @@ body{
   box-sizing: border-box;
   height: 100vh;
   background-color: #252526;
-  
+
 }
 
 #main{
@@ -60,6 +60,7 @@ height: 100%;
   
     font-weight: bolder;
     font-size: 1.3em;
+    padding-bottom: 1em;
     color:white;
 
 }
