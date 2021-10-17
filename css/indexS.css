@@ -7,7 +7,8 @@
 --gradienteBarra:linear-gradient(120deg,#602c82de,#49a09de1);
 --botonAplicacion:linear-gradient(90deg,#7474BF,#348AC7);
 --grisClaro:#C4C4C4;
---grisTinted:#23202b8e;
+--grisTinted:#c4c4c460;
+/* --grisTinted:#23202b8e; */
 }
 
 *{
