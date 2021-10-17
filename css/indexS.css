@@ -3,8 +3,8 @@
 --background:#2E2F33;
 --backgroundClaro:#333333;
 --backgroundHover:#312e338e;
---bottonInicio:linear-gradient(120deg,#CC2B5E,#753A88);
---gradienteBarra:linear-gradient(120deg,#5F2C82,#49A09D);
+--bottonInicio:linear-gradient(120deg,#cc2b5e,#753A88);
+--gradienteBarra:linear-gradient(120deg,#602c82de,#49a09de1);
 --botonAplicacion:linear-gradient(90deg,#7474BF,#348AC7);
 --grisClaro:#C4C4C4;
 }
