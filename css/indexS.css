@@ -244,10 +244,11 @@ table{
 }
 
 .headings:hover{
+
     border-radius: 2.5px;
     background-color: var(--backgroundHover);
     cursor:pointer;
-    text-align: center;
+    text-indent: 40px;
 
 }
 
