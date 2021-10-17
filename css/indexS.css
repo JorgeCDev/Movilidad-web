@@ -1,6 +1,8 @@
 :root{
 
 --background:#2E2F33;
+--backgroundClaro:#333333;
+--backgroundHover:#312e338e;
 --bottonInicio:linear-gradient(120deg,#CC2B5E,#753A88);
 --gradienteBarra:linear-gradient(120deg,#5F2C82,#49A09D);
 --botonAplicacion:linear-gradient(90deg,#7474BF,#348AC7);
@@ -227,31 +229,42 @@ table{
     width: 100%;
     border-collapse: collapse;
     margin: 2%;
+    border-bottom: 1px solid var(--grisClaro);
+
 }
 .headings{
 
-   color: white;
-   text-align: center;
-   border: 2px solid var(--grisClaro) ;
-   font-size: 1em;
-   padding: 2px;
-  
-    
+    color: white;
+    text-align: left;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--grisClaro);
+      
 }
 
-.tRows{
+.headings:hover{
+    border-radius: 2.5px;
+    background-color: var(--backgroundHover);
+    cursor:pointer;
+    text-align: center;
 
+}
+
+.tRows:nth-child(even){
+
+    background: var(--backgroundClaro);
 
 }
 
 .tData{
     
     color: white;
-    border: 2px solid var(--grisClaro) ;
-    text-align: center;
     font-size: .7em;
-    padding: 2px;
+    padding: 7px;
    
 }
+
+
 
 
